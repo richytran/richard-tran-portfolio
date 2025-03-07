@@ -7,7 +7,7 @@ export const Home = () => {
       <div className="text-center z-10 px-4">
         <div
           className="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-6 bg-cover bg-center border-4 border-blue-500/20"
-          style={{ backgroundImage: "url('/richardtran-portfolio/richardt.jpeg')" }} 
+          style={{ backgroundImage: "url('/richard-tran-portfolio/richardt.jpeg')" }} 
         ></div>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
           Hi, I'm Richard Tran

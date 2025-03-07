@@ -44,7 +44,7 @@ export const Projects = () => {
                 Demo
               </a>
             </div>
-            <VideoPlayer src="/richardtran-portfolio/videos/mechanic_app.mov" />
+            <VideoPlayer src="/richard-tran-portfolio/videos/mechanic_app.mov" />
           </div>
 
           {/* Code Translation & Conversion Tool */}
@@ -79,7 +79,7 @@ export const Projects = () => {
                 Demo
               </a>
             </div>
-            <VideoPlayer src="/richardtran-portfolio/videos/code_translation_app.mp4" />
+            <VideoPlayer src="/richard-tran-portfolio/videos/code_translation_app.mp4" />
           </div>
         </div>
       </div>
