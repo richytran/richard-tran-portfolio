@@ -26,18 +26,24 @@ export const Projects = () => {
               Maps API for real-time location tracking.
             </p>
             <div>
-              {["MongoDB", "Node.js", "React-Native", "Express.js"].map(
-                (tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+              {[
+                "MongoDB",
+                "Node.js",
+                "React-Native",
+                "Express.js",
+                "OAuth",
+                "Google Maps API",
+                "Tailwind CSS",
+              ].map((tech, key) => (
+                <span
+                  key={key}
+                  className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                     "
-                  >
-                    {tech}
-                  </span>
-                )
-              )}
+                >
+                  {tech}
+                </span>
+              ))}
             </div>
             <div className="flex justify-between items-center">
               <a className="text-blue-400 hover:text-blue-300 transition-colors my-4">
@@ -61,18 +67,25 @@ export const Projects = () => {
               code across multiple programming languages in a single operation
             </p>
             <div>
-              {["MongoDB", "Node.js", "React", "Express.js"].map(
-                (tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+              {[
+                "Node.js",
+                "React",
+                "Express.js",
+                "SQLite",
+                "dbAuth",
+                "GPT-3 API",
+                "Jest",
+                "Tailwind CSS",
+              ].map((tech, key) => (
+                <span
+                  key={key}
+                  className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                     "
-                  >
-                    {tech}
-                  </span>
-                )
-              )}
+                >
+                  {tech}
+                </span>
+              ))}
             </div>
             <div className="flex justify-between items-center">
               <a className="text-blue-400 hover:text-blue-300 transition-colors my-4">
